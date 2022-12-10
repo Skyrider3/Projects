@@ -1,5 +1,5 @@
-# Projects
-projects built with python
+# Projects built with python
+
 This password generator uses the string.printable constant, which contains all the printable ASCII characters. It then removes whitespace characters and generates a random password by choosing random characters from the remaining set of characters using the secrets.choice() function.
 
 The secrets.choice() function is similar to the random.choice() function, but it uses the system's secure random number generator, so the generated passwords are cryptographically secure.
